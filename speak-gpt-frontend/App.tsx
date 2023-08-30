@@ -144,36 +144,57 @@ export default function App() {
 
 const styles = StyleSheet.create({
   button: {
-    width: 50,
-    height: 50,
+    width: 80,
+    height: 80,
+    backgroundColor: "#E74C3C",
+    borderRadius: 80,
+    alignItems: "center",
+    justifyContent: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 3,
+      height: 3,
+    },
+    shadowOpacity: 0.5,
+    shadowRadius: 5,
   },
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF",
     padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
   welcome: {
     fontSize: 20,
-    textAlign: "center",
+    textAlign: 'center',
     margin: 10,
+    color: '#333333',
   },
   action: {
     textAlign: "center",
     color: "#0000FF",
     marginVertical: 5,
     fontWeight: "bold",
+    textShadowColor: "#000",
+    textShadowOffset: {
+      width: 1,
+      height: 1,
+    },
+    textShadowRadius: 2,
   },
   instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5,
     fontSize: 12,
+    color: '#333333',
+    textAlign: 'center',
+    marginBottom: 5,
   },
   stat: {
-    textAlign: "center",
-    color: "#B0171F",
+    color: '#B0171F',
+    textAlign: 'center',
     marginBottom: 1,
   },
-})
+});
+
+
+
